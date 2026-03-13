@@ -42,6 +42,49 @@ a11 = "C"
 
 q12 = "12. When a parent process terminates before its child, the child becomes:\n A. Zombie process\n B. Orphan process\n C. Suspended process\n D. Defunct process"
 a12 = "B"
+
+q13 = ("13. Consider 3 processes with the following arrival and burst times:"
+       "\n  Process	Arrival Time	Burst Time"
+       "\n     P1	  0 ms	           5 ms"
+       "\n     P2	  1 ms	           3 ms"
+       "\n     P3	  2 ms	           8 ms"
+       "\nUsing First-Come, First-Served (FCFS) scheduling, what is the average waiting time?"
+       "\nA. 3.67 ms"
+       "\nB. 3.33 ms"
+       "\nC. 5.00 ms"
+       "\nD. 2.67 ms")
+a13 = "B"
+
+q14 = ("14. Processes with burst times: P1 = 6 ms, P2 = 8 ms, P3 = 7 ms, P4 = 3 ms."
+       "\nAll arrive at time 0. Using SJF (non-preemptive), what is the average turnaround time?"
+       "\nA. 13 ms"
+       "\nB. 15.0 ms"
+       "\nC. 16.0 ms"
+       "\nD. 14.5 ms")
+a14 = "A"
+
+q15 = ("15. Quantum = 2 ms. Processes with burst times: P1 = 5 ms, P2 = 4 ms, P3 = 2 ms."
+       "\nAll arrive at time 0. What is the average waiting time?"
+       "\nA. 3.67 ms"
+       "\nB. 4.00 ms"
+       "\nC. 2.67 ms"
+       "\nD. 5.33 ms")
+a15 = "D"
+
+q16 = ("16. Processes with burst times and priorities are given."
+       "\nThe system uses Non-Preemptive Priority Scheduling:"
+       "\n   Process   Burst Time	  Priority (lower = higher)"
+       "\n     P1 	    10ms	               3"
+       "\n     P2 	    1ms	                   1"
+       "\n     P3 	    2ms	                   4"
+       "\n     P4 	    1ms	                   2"
+       "\nWhat is the average waiting time?"
+       "\nA. 3.75 ms"
+       "\nB. 4.25 ms"
+       "\nC. 5.0 ms"
+       "\nD. 6.25 ms")
+a16 = "A"
+
 qna = {
       q1:a1,
       q2:a2,
@@ -54,7 +97,11 @@ qna = {
       q9:a9,
       q10:a10,
       q11:a11,
-      q12:a12
+      q12:a12,
+      q13:a13,
+      q14:a14,
+      q15:a15,
+      q16:a16
 }
 
 score = 0
